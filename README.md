@@ -1,33 +1,62 @@
-# Project Title
+# Crypto Arbitrage Challenge
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is the Module 4 Challenge for the FinTech Bootcamp. It includes 3 stages (Collect Data, Prepare Data and Analyze Data) with the analysis focusing on determing the arbitrage profit possible between two cryptocurrency exchanges in early 2018.   
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+All code is contained within the included jupyter lab notebook. 
+
+Python version 3.9.15 was used for completing this challenge. 
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+No formal installation is necessary beyond the existence of a python environment including jupyter lab. 
+
+If necessary, an appropriate python environment can be created using conda.
+
+```
+conda create --name dev anaconda
+```
+
+Alternatively, if not already instaled pip can be used to install jupyter lab into any existing environment
+
+```
+pip install jupyterlab
+```
+
+or if using conda as your package manager
+
+``` 
+conda install jupyterlab
+```
+
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+The included .ipynb file should be opened in Jupyter Lab, which can be started in the configured python environment
+
+```
+jupyter lab
+```
+
+Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation]
+(https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Code framework provided by FinTech Bootcamp.
+Code completion by Thomas L. Champion.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+License information can be found in the included LICENSE file.
